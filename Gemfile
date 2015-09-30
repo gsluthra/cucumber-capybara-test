@@ -1,5 +1,7 @@
-source :rubygems
+source 'https://rubygems.org'
 
-gem 'cucumber', '~> 1.1.4'
-gem 'capybara', '~> 1.1.2'
-gem 'rspec', '~> 2.8.0'
+gem 'capybara', '2.2.1'
+gem 'cucumber', '1.2.5'
+gem 'rspec'
+gem 'poltergeist', '1.5.1'
+gem 'pry'
