@@ -14,3 +14,11 @@ Steps to run the tests
     bundle install
     bundle exec cucumber
 
+Further Reading / Reference to writing Capybara tests
+
+(Capybara)[https://github.com/jnicklas/capybara]
+(Capybara Cheatsheep)[http://ricostacruz.com/cheatsheets/capybara.html]
+(Capybara assertions)[http://www.rubydoc.info/github/jnicklas/capybara/master/Capybara/Node/Matchers]
+(Capybara Rspec assertions)[http://www.rubydoc.info/github/jnicklas/capybara/Capybara/RSpecMatchers]
+
+
