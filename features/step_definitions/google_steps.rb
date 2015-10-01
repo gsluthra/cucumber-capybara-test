@@ -1,12 +1,12 @@
-Given /^I am on google-com$/ do
-  visit('http://www.google.com')
+Given /^I am on sony-co-uk$/ do
+  visit('http://www.sony.co.uk')
 end
 
-When /^I enter "([^"]*)"$/ do |term|
-  fill_in('q',:with => term)
+When(/^I click on "(.*?)" menu$/) do |menu_name|
+  click_link(menu_name)
 end
 
-Then /^I should see results$/ do
-  page.save_screenshot("/Users/gluthra/Projects/cucumber-capybara-test/screenshot-google.pdf")
-  page.should have_css('div#res li')
+Then(/^I should see "(.*?)" page$/) do |arg1|
+  page.save_screenshot('/Users/gluthra/Projects/cucumber-capybara-test/screenshot.pdf')
+  page.should  have_css('h2.t5', :text => 'Support')
 end

@@ -1,7 +1,7 @@
-Feature: Using Google
+Feature: Using Sony
 
-Scenario: Searching for a term
+Scenario: Navigating to Sony Support Site
 
-Given I am on google-com
-When I enter "pizza"
-Then I should see results
+Given I am on sony-co-uk
+When I click on "Support" menu
+Then I should see "Support" page
