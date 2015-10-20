@@ -1,7 +1,5 @@
 # Testing a remote app with Cucumber+Capybara+Poltergeist+PhantomJS
 
-My Readme File: 
-
 Granted, this is a really simple combination, but I ran into a few hurdles on my first attempt,
 and thought someone might benefit from my feeding github this working, minimal example of using
 Cucumber, Capybara, Poltergeist and PhantomJS to execute web tests against a remote application.
